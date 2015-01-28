@@ -2,6 +2,7 @@ from django.core.urlresolvers import resolve
 from django.test import TestCase
 from lists.views import home_page
 from django.http import HttpRequest
+from django.template.loader import render_to_string
 
 class HomePageTest(TestCase):
     
@@ -24,3 +25,8 @@ class HomePageTest(TestCase):
         response = home_page(request)
         
         self.assertIn('A new list item', response.content.decode())
+        expected_html = render_to_string(
+        'home.html',
+        {'new_item_text':  'A new list item'},
+        )
+        self.assertEqual(response.content.decode().strip(), expected_html.strip())
