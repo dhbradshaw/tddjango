@@ -1,14 +1,17 @@
 # SciTE session file
 
 buffer.1.path=/home/doug/python/tdd/superlists/lists/templates/lists/home.html
-buffer.1.position=65
-buffer.1.current=1
+buffer.1.position=390
 
 buffer.2.path=/home/doug/python/tdd/superlists/functional_tests.py
-buffer.2.position=1246
+buffer.2.position=2335
 
 buffer.3.path=/home/doug/python/tdd/superlists/lists/tests.py
-buffer.3.position=949
+buffer.3.position=1084
+buffer.3.current=1
 
 buffer.4.path=/home/doug/python/tdd/superlists/lists/views.py
-buffer.4.position=129
+buffer.4.position=186
+
+buffer.5.path=/home/doug/python/tdd/superlists/lists/models.py
+buffer.5.position=95
